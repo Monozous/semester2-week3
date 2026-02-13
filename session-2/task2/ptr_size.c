@@ -8,9 +8,9 @@
 
 int main( void ) {
 
-    int *testIntPtr;
+    float *testIntPtr;
 
-    printf("Int pointer size is %ld bytes\n",sizeof(testIntPtr));
+    printf("Float pointer size is %ld bytes\n",sizeof(testIntPtr));
 
     return 0;
 }
